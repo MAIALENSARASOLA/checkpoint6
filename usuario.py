@@ -1,11 +1,9 @@
 class Usuario:
-    def __init__(self, nombre, contraseña):
-        self.nombre = nombre
-        self.contraseña = contraseña
+    def __init__(self, nombre_usuario, contrasena):
+        self.nombre_usuario = nombre_usuario
+        self.contrasena = contrasena
 
-# Creamos un usuario de prueba
-maialen = Usuario("Maialen", "P@ssword123")
+usuario1 = Usuario("maialen", "1234")
 
-# Comprobamos que funciona imprimiendo los datos
-print("Nombre:", maialen.nombre)
-print("Contraseña:", maialen.contraseña)
+print(usuario1.nombre_usuario)
+print(usuario1.contrasena)
